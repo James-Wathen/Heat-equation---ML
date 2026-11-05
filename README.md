@@ -7,3 +7,6 @@ For this step my reading has been:
 - [jupyter notebook on FTCS](https://nu-cem.github.io/Computational_Physics/notebooks/FTCS_method.html) 
     Taught me what FTCS is and how to build it, though I made sure to write all the code myself and not use theirs so that I woulc understand it better while debugging
     - From this, I understand how numpy array manipulation can do pretty powerful things in a single line, literally the whole FTCS loop at once.
+
+After the FTCS works, I compared it to an approximate solution and the exact solution to the heat equation:
+$u(x,t)=e^{-\alpha(n\pi /L)^2t}\sin\left(\frac{n\pi x}{L}\right)$
